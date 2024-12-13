@@ -34,7 +34,8 @@ kubectl apply -f manifests/deployment-game2048.yaml
 
 kubectl apply -f manifests/svc.yaml
 
-Resultado de kubectl get all -n default
+### 4. Resultado de kubectl get all -n default
+
 A continuación se muestra el resultado de ejecutar kubectl get all -n default:
 
 ![image](https://github.com/user-attachments/assets/78c96b12-7a7d-488e-b0d6-4e9da7bbf628)
