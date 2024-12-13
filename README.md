@@ -31,7 +31,13 @@ aws eks --region eu-west-1 update-kubeconfig --name test-cluster
 ### 3. Desplegar la aplicación
 
 kubectl apply -f manifests/deployment-game2048.yaml
+
 kubectl apply -f manifests/svc.yaml
+
+Resultado de kubectl get all -n default
+A continuación se muestra el resultado de ejecutar kubectl get all -n default:
+
+![image](https://github.com/user-attachments/assets/78c96b12-7a7d-488e-b0d6-4e9da7bbf628)
 
 Créditos
 La imagen de Docker utilizada para este proyecto no fue creada por mí, sino que se encuentra disponible en Docker Hub bajo el nombre blackicebird/2048. Puedes encontrarla en el siguiente enlace:
