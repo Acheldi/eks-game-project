@@ -40,7 +40,11 @@ A continuación se muestra el resultado de ejecutar kubectl get all -n default:
 
 ![image](https://github.com/user-attachments/assets/78c96b12-7a7d-488e-b0d6-4e9da7bbf628)
 
-Créditos
+### 5. Créditos
 La imagen de Docker utilizada para este proyecto no fue creada por mí, sino que se encuentra disponible en Docker Hub bajo el nombre blackicebird/2048. Puedes encontrarla en el siguiente enlace:
 
 blackicebird/2048 en Docker Hub
+
+
+### 6. Contribuciones
+Si deseas contribuir a este proyecto, siéntete libre de hacer un fork y crear un pull request. Asegúrate de que tus cambios estén bien documentados y sean probados.
