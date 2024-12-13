@@ -22,7 +22,6 @@ Antes de empezar, asegúrate de tener instaladas las siguientes herramientas:
 
 Si no tienes un clúster de EKS, puedes crear uno usando `eksctl`:
 
-```bash
 eksctl create cluster --name test-cluster --region eu-west-1 --nodegroup-name workers --node-type t2.micro --nodes 2
 
 ### 2. Configurar kubectl
